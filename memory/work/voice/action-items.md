@@ -20,6 +20,9 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 - [ ] Data/privacy one-pager — first draft for Voice enablement materials: what data we collect, how we use it, EL zero retention mode, DPIA completion status (added 2026-03-09)
 - [ ] Conversation Analytics kickoff — confirm date with DB/Yvonne/Jay/Pierce/Rash; review Pierce's research plan first: https://cultureamp.atlassian.net/wiki/spaces/MLP/pages/5984354746/Conversation+Analytics+-+Research+Plan (added 2026-03-12)
+- [ ] Schedule Voice risk meeting with Alice to review EL mitigations (added 2026-03-20)
+- [ ] Schedule Beta feature tracking meeting with Simon Dell'Oro — propose mechanism to track when beta clause is redlined in new deals (added 2026-03-20)
+- [ ] Discuss Q1 tech debt (Mar 13 list: streaming, scrolling bug, Otel, RAG split, guardrail fails) + BAU list with Jay — assign owners and timelines (added 2026-03-20)
 - [ ] Prompt management — review Thai's Option 1 vs Option 2 proposal and make a call (added 2026-03-20)
 
 ## Active (no fixed deadline)
