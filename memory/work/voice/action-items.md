@@ -8,6 +8,8 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 **P0 — Critical blockers:**
 
+- [ ] Release Voice to Coach team — Wed 25/3; coordinate internal release (added 2026-03-20)
+- [ ] Testing — big focus next week post-release; coordinate with team (added 2026-03-20)
 - [ ] ElevenLabs contract — track signing; CZ cannot proceed until signed (added 2026-03-20)
 - [ ] Consent modal — meeting with Enoch + Angela Mon 23/3 to finalise (added 2026-03-20)
 - [ ] Voice labeling strategy — finalise view on whether admins can self-serve disable (added 2026-03-09)
