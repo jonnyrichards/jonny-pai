@@ -2,37 +2,29 @@
 
 Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] task (done YYYY-MM-DD)`
 
-## This Week (Mar 9–13)
+## Week of Mar 23
 
-**Focus:** Voice CZ Launch Prep (T-1 week, Mar 16) + Q2 One-Pagers
+**Context:** CZ blocked on ElevenLabs contract signing. Legal/consent work active.
 
 **P0 — Critical blockers:**
 
-- [ ] Finalise Voice labeling strategy — need a view on whether admins can disable? (See notes from most recent meeting)
-- [ ] Reschedule CZ testers after cancelling
-- [ ] Discuss voice instrumentation with Baps, review Naomi's note
-- [ ] Consent modal — finalise
-Test voice ahead of CZ release
+- [ ] ElevenLabs contract — track signing; CZ cannot proceed until signed (added 2026-03-20)
+- [ ] Consent modal — meeting with Enoch + Angela Mon 23/3 to finalise (added 2026-03-20)
+- [ ] Voice labeling strategy — finalise view on whether admins can self-serve disable (added 2026-03-09)
+- [ ] Reschedule CZ testers — rebook once EL contract signed (added 2026-03-09)
+- [ ] Voice instrumentation — discuss with Baps, review Naomi's note (added 2026-03-09)
 
 **P1 — High value:**
-- [ ] Write first draft of data/privacy one-pager for Voice enablement materials. Should cover: what data we collect, how we use it, ElevenLabs retention policy (zero retention mode), DPIA completion status
-- [ ] Chat with DB about Conversation Analytics — you're the PM; Tuesday kickoff booked (Yvonne/Jay/Pierce/Rash); review Pierce's research plan first: https://cultureamp.atlassian.net/wiki/spaces/MLP/pages/5984354746/Conversation+Analytics+-+Research+Plan (added 2026-03-12)
----
 
-## Active
+- [ ] Data/privacy one-pager — first draft for Voice enablement materials: what data we collect, how we use it, EL zero retention mode, DPIA completion status (added 2026-03-09)
+- [ ] Conversation Analytics kickoff — confirm date with DB/Yvonne/Jay/Pierce/Rash; review Pierce's research plan first: https://cultureamp.atlassian.net/wiki/spaces/MLP/pages/5984354746/Conversation+Analytics+-+Research+Plan (added 2026-03-12)
+- [ ] Prompt management — review Thai's Option 1 vs Option 2 proposal and make a call (added 2026-03-20)
+
+## Active (no fixed deadline)
 
 - [ ] Disclaimer messaging — schedule implementation with Jay as Coach Core BAU; eng ready to proceed (added 2026-03-11)
 - [ ] Message context — schedule with Jay for Q2; Bec's designs ready, just needs roadmap slot (added 2026-03-11)
- 
-
-- [ ] Explore Rash and Mikey's Coach Inspector app on Saturn (added 2026-02-27)
-  - URL: https://ds-evaluate.cultureamp-us.saturnenterprise.io/Coach_Inspector
-
-
-
-## Coach / Conversation Analytics
-
----
+- [ ] Coach Inspector — explore Rash and Mikey's app on Saturn: https://ds-evaluate.cultureamp-us.saturnenterprise.io/Coach_Inspector (added 2026-02-27)
 
 ## Completed
 
