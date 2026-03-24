@@ -18,6 +18,9 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 **P1 — High value:**
 
+- [ ] Demo Coach sessions (standalone) — update one to be voice-friendly (shorter); Jas scheduling with Baps (added 2026-03-24)
+- [ ] Sales enablement plan — ensure voice in SDEs / voice-friendly demo session is included (added 2026-03-24)
+
 - [ ] Data/privacy one-pager — first draft for Voice enablement materials: what data we collect, how we use it, EL zero retention mode, DPIA completion status (added 2026-03-09)
 - [ ] Conversation Analytics kickoff — confirm date with DB/Yvonne/Jay/Pierce/Rash; review Pierce's research plan first: https://cultureamp.atlassian.net/wiki/spaces/MLP/pages/5984354746/Conversation+Analytics+-+Research+Plan (added 2026-03-12)
 - [ ] Schedule Voice risk meeting with Alice to review EL mitigations (added 2026-03-20)
