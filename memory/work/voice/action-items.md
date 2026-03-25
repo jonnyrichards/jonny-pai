@@ -15,6 +15,7 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 - [ ] Voice labeling strategy — finalise view on whether admins can self-serve disable (added 2026-03-09)
 - [ ] Reschedule CZ testers — rebook once EL contract signed (added 2026-03-09)
 - [ ] Voice instrumentation — discuss with Baps, review Naomi's note (added 2026-03-09)
+- [ ] Revisit analytics for Voice — see what is do-able for first cut of voice analytics (added 2026-03-25)
 
 **P1 — High value:**
 
