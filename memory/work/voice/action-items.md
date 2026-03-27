@@ -2,33 +2,22 @@
 
 Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] task (done YYYY-MM-DD)`
 
-## Week of Mar 23
-
-**Context:** CZ blocked on ElevenLabs contract signing. Legal/consent work active.
+## Week of Mar 30
 
 **P0 — Critical blockers:**
 
-- [ ] Release Voice to Coach team — Wed 25/3; coordinate internal release (added 2026-03-20)
-- [ ] Testing — big focus next week post-release; coordinate with team (added 2026-03-20)
-- [ ] ElevenLabs contract — track signing; CZ cannot proceed until signed (added 2026-03-20)
-- [ ] Consent modal — meeting with Enoch + Angela Mon 23/3 to finalise (added 2026-03-20)
+- [ ] Share latency options with execs (added 2026-03-27)
+- [ ] Testing — continue post-release; coordinate with team (added 2026-03-20)
+- [ ] Consent modal — finalised but not yet implemented; follow up on implementation (added 2026-03-20)
 - [ ] Voice labeling strategy — finalise view on whether admins can self-serve disable (added 2026-03-09)
-- [ ] Reschedule CZ testers — rebook once EL contract signed (added 2026-03-09)
+- [ ] Reschedule CZ testers (added 2026-03-09)
 - [ ] Voice instrumentation — discuss with Baps, review Naomi's note (added 2026-03-09)
-- [ ] Revisit analytics for Voice — see what is do-able for first cut of voice analytics (added 2026-03-25)
 
 **P1 — High value:**
 
-- [ ] Demo Coach sessions (standalone) — update one to be voice-friendly (shorter); Jas scheduling with Baps (added 2026-03-24)
-- [ ] Sales enablement plan — ensure voice in SDEs / voice-friendly demo session is included (added 2026-03-24)
-
 - [ ] Data/privacy one-pager — first draft for Voice enablement materials: what data we collect, how we use it, EL zero retention mode, DPIA completion status (added 2026-03-09)
-- [ ] Conversation Analytics kickoff — confirm date with DB/Yvonne/Jay/Pierce/Rash; review Pierce's research plan first: https://cultureamp.atlassian.net/wiki/spaces/MLP/pages/5984354746/Conversation+Analytics+-+Research+Plan (added 2026-03-12)
-- [ ] Schedule Voice risk meeting with Alice to review EL mitigations (added 2026-03-20)
 - [ ] Schedule Beta feature tracking meeting with Simon Dell'Oro — propose mechanism to track when beta clause is redlined in new deals (added 2026-03-20)
-- [ ] Talk to Jay about Beta feature implementation — how to roll out in conjunction with Unified Systems / Voice as test case (added 2026-03-25)
 - [ ] Discuss Q1 tech debt (Mar 13 list: streaming, scrolling bug, Otel, RAG split, guardrail fails) + BAU list with Jay — assign owners and timelines (added 2026-03-20)
-- [ ] Prompt management — review Thai's Option 1 vs Option 2 proposal and make a call (added 2026-03-20)
 
 ## Active (no fixed deadline)
 
