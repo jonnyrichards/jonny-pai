@@ -1,17 +1,19 @@
 # Voice — Hot Memory
 
-**Phase:** Build + Customer Zero prep (Phase 1 of 3-phase rollout)
+**Phase:** Post-internal release — Customer Zero prep (Phase 1 of 3-phase rollout)
 
 **Timeline:**
-- Mar 16: Customer Zero (internal)
-- Mar 30: Sales Demo Environment
-- Early-Mid Apr: Limited Beta (C1+)
+- Mar 25: Internal release to Coach team — DONE
+- Early Apr: Customer Zero (C0) — rebook testers, EL contract signed
+- Mid Apr: Limited Beta (C1+)
 - Late Apr-Early May: Beta to all customers
 
-**Active blockers:**
-- Unified Nav integration (Ben K reviewing; pushback on rework)
-- Legal requirements (DPIA, consent, privacy policy, EL contract)
-- Beta clause strategy (option B: new contracts/renewals only)
+**Active blockers / focus areas:**
+- Latency — flagged by execs (Paul, Mindy, Chris); options doc at `projects/voice/latency-options.md`; need instrumentation baseline + SLA target
+- ElevenLabs contract — signed but Flash model availability TBC
+- Consent modal — wording agreed, not yet implemented
+- Voice labeling strategy — self-serve admin disable not resolved
+- CZ: will not release to CZ (Czech Republic) until RMC async sign-off
 
 **Key docs:**
 - [[../../projects/voice/coach-voice-one-pager.md]] — project overview
