@@ -11,6 +11,7 @@ work/
   {project-name}/
     hot-memory.md       # <50 lines — current priorities, active blockers
     observations.md     # Append-only, timestamped — decisions, learnings, status
+    shipped.md          # Append-only — features/milestones delivered to prod or customers
     patterns.md         # Distilled themes from observations
     action-items.md     # Tasks with dates (replaces BACKLOG)
     entities.md         # People, systems, dependencies
@@ -22,9 +23,16 @@ work/
 |------|---------|---------|
 | `hot-memory.md` | Rewrite freely | Active context — what's happening now |
 | `observations.md` | Append only | Timestamped log of events/decisions/learnings |
+| `shipped.md` | Append only | One line per shipped feature/milestone with date |
 | `patterns.md` | Edit in place | Distilled insights from observations |
 | `action-items.md` | Check off when done | Tasks with dates |
 | `entities.md` | Edit in place | People, systems, tools |
+
+## Observation Tags
+
+Use tags at the end of observation entries for searchability: `[work]`, `[legal]`, `[security]`, `[tech-debt]`, `[competitive]`, `[milestone]`.
+
+Add `[shipped]` when an observation records something that went to production — this allows a quick `Grep` for shipped items at end-of-quarter without relying solely on `shipped.md`.
 
 ## Relationship to Projects
 
