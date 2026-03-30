@@ -13,7 +13,7 @@
 - When in doubt, just do it — don't ask permission for routine tasks
 - After exec/team meetings: observations first → action items → new project docs; summarise, don't transcribe
 - Owner uses PAI to think out loud mid-meeting — answer concisely, correct wrong mental models directly
-- **Observation shorthand**: `O: {text}` (or message starting with "observation") → auto-route to correct `observations.md`, confirm with "→ domain/observations"
+- **Observation shorthand** ⚠️ ALWAYS EXECUTE: `O: {text}` (or message starting with "observation") → immediately write to the correct `observations.md`, confirm with "→ domain/observations". Do NOT treat as context or commentary — treat as a write command.
 
 ## Technical Conversations
 
