@@ -6,7 +6,13 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 **P0 — Critical blockers:**
 
-- [ ] Flesh out Customer Zero plan: define pilot group (who's in it?), week 1 = initial three latency changes, week 2 = text + voice model swaps (added 2026-03-31)
+- [ ] Flesh out Customer Zero plan: define pilot group (who's in it?), week 1 = initial three latency changes, week 2 = text + voice model swaps (added 2026-03-31) — draft plan saved at [[../../projects/voice/cz-rollout-plan]]
+- [ ] Draft + send pilot group comms (opt-in, EL data processing, no sensitive use; cc Megan) (added 2026-03-31)
+- [ ] Re-engage ~10 CZ testers, confirm pilot group membership (added 2026-03-31)
+- [ ] Collaborate with Ally on user testing plan for CZ rollout (added 2026-03-31)
+- [ ] Confirm EL deal / Zero Data Retention signed — prerequisite for Flash model in Phase 2 (added 2026-03-31)
+- [ ] Engineering sprint planning for Phase 1 items with Jay (incl. consent modal) (added 2026-03-31)
+- [ ] Ensure enable_logging=False sent with every EL request before pilot goes live (added 2026-03-31)
 
 - [ ] Share latency options with execs (added 2026-03-27)
 - [ ] Testing — continue post-release; coordinate with team (added 2026-03-20)
@@ -29,7 +35,6 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 ## Completed
 
-None yet
 
 Voice deployed in Prod and CZ-ready
 Developing a plan for latency issues flagged in Product Review
