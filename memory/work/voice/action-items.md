@@ -6,6 +6,8 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 **P0 — Critical blockers:**
 
+- [ ] Flesh out Customer Zero plan: define pilot group (who's in it?), week 1 = initial three latency changes, week 2 = text + voice model swaps (added 2026-03-31)
+
 - [ ] Share latency options with execs (added 2026-03-27)
 - [ ] Testing — continue post-release; coordinate with team (added 2026-03-20)
 - [ ] Consent modal — finalised but not yet implemented; follow up on implementation (added 2026-03-20)
@@ -28,3 +30,7 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 ## Completed
 
 None yet
+
+Voice deployed in Prod and CZ-ready
+Developing a plan for latency issues flagged in Product Review
+Plan agreed to progress Eleven Labs deal with Zero Data Retention specified
