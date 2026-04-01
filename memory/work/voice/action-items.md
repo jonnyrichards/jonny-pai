@@ -21,6 +21,10 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 - [ ] Reschedule CZ testers (added 2026-03-09)
 - [ ] Voice instrumentation — discuss with Baps, review Naomi's note (added 2026-03-09)
 
+- [ ] Plan for releasing voice with dictation first — draft rollout sequencing (added 2026-04-01)
+- [ ] Create more time for TTS optimisations in sprint planning (added 2026-04-01)
+- [ ] Once EL deal locked in — revisit Voice thread (Mindy), sketch options: which voice, how many, gender (added 2026-04-01)
+
 **P1 — High value:**
 
 - [ ] Data/privacy one-pager — first draft for Voice enablement materials: what data we collect, how we use it, EL zero retention mode, DPIA completion status (added 2026-03-09)
