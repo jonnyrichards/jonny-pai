@@ -25,6 +25,7 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 - [ ] Create more time for TTS optimisations in sprint planning (added 2026-04-01)
 - [ ] Once EL deal locked in — revisit Voice thread (Mindy), sketch options: which voice, how many, gender (added 2026-04-01)
 - [ ] Ask Core team about the `/app/coach/api/voice/textToSpeech` endpoint — what do traces with 800+ spans mean? (added 2026-04-07)
+- [ ] Share with Coach leads: Louis' update that de-identified traces are now on for a subset of accounts (Slack: https://cultureamp.slack.com/archives/C0A2JMXP0KX/p1775535214333909) (added 2026-04-07)
 
 **P1 — High value:**
 
