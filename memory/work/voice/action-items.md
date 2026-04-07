@@ -24,6 +24,7 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 - [ ] Plan for releasing voice with dictation first — draft rollout sequencing (added 2026-04-01)
 - [ ] Create more time for TTS optimisations in sprint planning (added 2026-04-01)
 - [ ] Once EL deal locked in — revisit Voice thread (Mindy), sketch options: which voice, how many, gender (added 2026-04-01)
+- [ ] Ask Core team about the `/app/coach/api/voice/textToSpeech` endpoint — what do traces with 800+ spans mean? (added 2026-04-07)
 
 **P1 — High value:**
 
