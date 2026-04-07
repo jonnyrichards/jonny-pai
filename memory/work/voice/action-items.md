@@ -28,6 +28,7 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 - [ ] Voice selection — plan the feature and propose way forward: options ladder (admin-controlled → user-controlled → custom voice upload), effort sizing with Jay (added 2026-04-07)
 - [ ] Land on v1 default voice with Kristina — Xeda out (too mawkish), confirm third candidate alongside Tom and Sean (added 2026-04-07)
 - [ ] Ask Jill to pull Coach user base by geography (added 2026-04-07)
+- [ ] Chat to Coach Leads about guardrails — can these live in a snippet to be pulled into multiple prompts? (added 2026-04-07)
 - [ ] Add voice preference question to CZ UXR plan with Ally — compare top 3 voices (added 2026-04-07)
 - [ ] Lightweight voice preference test (post-v1, pre-GA) — top 3 voices, three scenarios (opener, empathy, pushback), rated on clarity/trust/approachability; run via CZ or user panel (added 2026-04-07)
 - [ ] Desk research for Mindy — pull Kristina's literature notes on voice preferences by geography; share before GA decision (added 2026-04-07)
