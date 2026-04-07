@@ -13,8 +13,6 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 - [ ] Confirm EL deal / Zero Data Retention signed — prerequisite for Flash model in Phase 2 (added 2026-03-31)
 - [ ] Engineering sprint planning for Phase 1 items with Jay (incl. consent modal) (added 2026-03-31)
 - [ ] Ensure enable_logging=False sent with every EL request before pilot goes live (added 2026-03-31)
-
-- [ ] Share latency options with execs (added 2026-03-27)
 - [ ] Testing — continue post-release; coordinate with team (added 2026-03-20)
 - [ ] Consent modal — finalised but not yet implemented; follow up on implementation (added 2026-03-20)
 - [ ] Voice labeling strategy — finalise view on whether admins can self-serve disable (added 2026-03-09)
@@ -23,6 +21,7 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 - [ ] Plan for releasing voice with dictation first — draft rollout sequencing (added 2026-04-01)
 - [ ] Create more time for TTS optimisations in sprint planning (added 2026-04-01)
+- [ ] Meet with Bindi to discuss navigation / session management options (added 2026-04-07)
 - [ ] Once EL deal locked in — revisit Voice thread (Mindy), sketch options: which voice, how many, gender (added 2026-04-01)
 - [ ] Ask Core team about the `/app/coach/api/voice/textToSpeech` endpoint — what do traces with 800+ spans mean? (added 2026-04-07)
 - [ ] Share with Coach leads: Louis' update that de-identified traces are now on for a subset of accounts (Slack: https://cultureamp.slack.com/archives/C0A2JMXP0KX/p1775535214333909) (added 2026-04-07)
