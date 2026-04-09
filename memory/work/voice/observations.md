@@ -2,6 +2,8 @@
 
 Timestamped log of events, decisions, learnings. Append-only. Latest first.
 
+- 2026-04-09: Created Coach voice options paper — 5 options (A: single voice, B: admin-selectable, C: UXR-first, D: user-selectable, E: custom/cloned), recommending Option A near-term and Option D long-term. Confluence: https://cultureamp.atlassian.net/wiki/spaces/COACHCAMP/pages/6117687617/Coach+Voice+Selection+Options [work]
+
 - 2026-04-09: User testing strategy for dictation-first rollout — synced with Jay. Decision: hold back on 1:1 UXR testing until conversation mode is enabled. During dictation-only phase: use Coach Camp and #help-coach-feedback channels for feedback aggregation; encourage CZ to post there; rely on aggregate rather than targeted UXR. [work]
 
 - 2026-04-09: Beta features clause — synced with Simon D (Data Intelligence). Aligned on overall approach: add beta features clause in general terms, build in product flexibility to disable beta features. Specifically aligned on a product toggle, enabled by default (customer's responsibility to turn off). Simon's advice: a) make it admin-controlled (keep customer in control), b) Coach team owns the toggle short-term — no dependency on Core Services to build it. [work]
