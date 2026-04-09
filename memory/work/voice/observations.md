@@ -2,6 +2,7 @@
 
 Timestamped log of events, decisions, learnings. Append-only. Latest first.
 
+- 2026-04-09: Eleven Labs order form (deal terms) saved at: https://docs.google.com/document/d/1C0l_4nqQ33hyPPqB3qu_bBkyYmw-p-zq/edit?usp=sharing&ouid=109946937302639967661&rtpof=true&sd=true [work, legal]
 - 2026-04-09: Created Coach voice options paper — 5 options (A: single voice, B: admin-selectable, C: UXR-first, D: user-selectable, E: custom/cloned), recommending Option A near-term and Option D long-term. Confluence: https://cultureamp.atlassian.net/wiki/spaces/COACHCAMP/pages/6117687617/Coach+Voice+Selection+Options [work]
 
 - 2026-04-09: User testing strategy for dictation-first rollout — synced with Jay. Decision: hold back on 1:1 UXR testing until conversation mode is enabled. During dictation-only phase: use Coach Camp and #help-coach-feedback channels for feedback aggregation; encourage CZ to post there; rely on aggregate rather than targeted UXR. [work]
