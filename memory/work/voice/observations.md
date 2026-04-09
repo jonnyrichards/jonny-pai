@@ -2,6 +2,7 @@
 
 Timestamped log of events, decisions, learnings. Append-only. Latest first.
 
+- 2026-04-09: ElevenLabs pricing analysis at $4,300/month (Tier A). 100% TTS: ~63.2M chars (~12.6M words). 100% STT: ~25,300 hrs transcription. Realistic 80/20 TTS-heavy mix: ~50.5M chars TTS (~10.1M words) + ~5,060 hrs STT. 50/50 mix: ~31.6M chars TTS (~6.3M words) + ~12,650 hrs STT. STT is dramatically cheaper — transcription costs are near-negligible vs TTS at this contract size. [work]
 - 2026-04-09: Eleven Labs order form (deal terms) saved at: https://docs.google.com/document/d/1C0l_4nqQ33hyPPqB3qu_bBkyYmw-p-zq/edit?usp=sharing&ouid=109946937302639967661&rtpof=true&sd=true [work, legal]
 - 2026-04-09: Created Coach voice options paper — 5 options (A: single voice, B: admin-selectable, C: UXR-first, D: user-selectable, E: custom/cloned), recommending Option A near-term and Option D long-term. Confluence: https://cultureamp.atlassian.net/wiki/spaces/COACHCAMP/pages/6117687617/Coach+Voice+Selection+Options [work]
 
