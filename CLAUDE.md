@@ -90,6 +90,8 @@ memory/
 2. **Write immediately**: Don't wait to save something worth remembering
 3. **Observations are append-only**: `- YYYY-MM-DD [tags]: <observation>` — never edit past entries
    - Tags: `health`, `habits`, `family`, `milestone`, `work`, `insight`, `regression`, `philosophy`, `mental-health`
+   - **Ordering**: latest entry at the top — prepend new observations, don't append
+   - **File selection**: choose the most specific observations file for the domain (e.g. `memory/work/voice/observations.md` for Voice topics, `memory/personal/observations.md` for personal topics). When in doubt, prefer specificity over the generic file.
 4. **Action items**: `- [ ] task (added YYYY-MM-DD)` / `- [x] task (done YYYY-MM-DD)`
 5. **Entities**: Edit in place, never delete
 6. **Hot memory <50 lines**: Prune aggressively, move detail to observations

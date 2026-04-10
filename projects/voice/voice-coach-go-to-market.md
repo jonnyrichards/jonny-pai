@@ -2,7 +2,7 @@
 title: Voice Coach - Go-to-Market Document
 confluence_page_id: 5951226056
 confluence_url: "https://cultureamp.atlassian.net/wiki/spaces/COACHCAMP/pages/5951226056/Voice+Coach+-+Go-to-Market+Document"
-last_synced: "2026-03-05T04:31:45.000Z"
+last_synced: "2026-03-25T00:55:12.232Z"
 ---
 
 ## Executive Summary
@@ -12,10 +12,10 @@ We are adding voice interaction to AI Coach - enabling users to speak to Coach r
 **Primary Goal:** Zero instances of deals falling over because AI Coach does not offer voice mode.
 
 **Target Release:**
-- **Mar 16:** Customer Zero (internal)
-- **Mar 30:** Sales Demo Environment (SDE)
-- **Early-Mid April:** Limited Beta (C1+ customers)
-- **Late April:** Beta (all customers, 100% rollout)
+- **Mar 30:** Customer Zero (internal)
+- **April 20:** Limited Beta (C1+ customers)
+- **Early May:** SDEs enabled
+- **Mid May:** Beta (all customers, 100% rollout)
 
 ---
 
@@ -31,12 +31,12 @@ We are adding voice interaction to AI Coach - enabling users to speak to Coach r
 - **Giving feedback** - practice delivering feedback in a safe environment
 
 **Core features:**
-- **Two modes**: Conversation Mode (free, back-and-forward conversation with zero UI) and Dictation Mode (voice-to-text input)
+- **Two modes**: Conversation Mode (free, back-and-forward conversation with zero UI) and Dictation Mode (voice-to-text input) in General Coach
 - **Streaming audio with synchronized text** - see and hear responses in real-time
 - **Seamless mode switching** - shift from voice to text (or vice versa) mid-conversation
 - **Interruption handling** - users can interrupt Coach mid-response
 
-**What's NOT included in V1:**
+**What's NOT included:**
 - Perform voice (on hold pending discovery)
 - Voices selection (one voice for Coach initially)
 - Mobile optimization (Coach is desktop-first across all modalities)
@@ -57,13 +57,31 @@ These are the metrics that validate the business case:
 ### Adoption & Usage (Secondary)
 
 These metrics help us understand if users find value beyond the "cool factor":
+- **Trial rate:** 10-15% of enabled users try voice at least once (target TBD after Phase 1)
+- **Retention:** 20% of triallers (~0.5% of enabled users) use it 3+ times (indicates genuine value, not just curiosity)
+- **Usage volume:** 0.5-1% of all requests to the Coach backend use voice
 
-- **Trial rate:** X% of enabled users try voice at least once (target TBD after Phase 1)
-- **Retention:** X% of voice users use it 3+ times (indicates genuine value, not just curiosity)
-- **Usage volume:** 2% of all requests to the Coach backend use voice
-- **Session quality:** Voice session length comparable to or exceeding text sessions (indicates engagement)
-- **Error rate:** Voice session abandon/error rate < X% (target TBD after Phase 1)
-- **Cost:** Voice session cost is < 50% higher than text (higher cost per token; lower token count)
+---
+
+## Positioning: Voice in the Broader Coach Narrative
+
+Voice isn't a standalone feature — it's the natural delivery mechanism for Coach's highest-value use cases. As Coach expands beyond General Coach into performance workflows, voice is how those workflows become *practiced*, not just *planned*.
+
+**The narrative link to Perform:**
+
+The Perform GTM narrative positions Coach as moving from insight to action — "don't just review performance, improve it continuously." Voice is where that action becomes real. Users don't just read coaching advice; they rehearse the conversation they need to have.
+
+**How voice fits the Perform story:**
+
+| Perform narrative | Voice use case |
+|---|---|
+| "Prepare for your most important conversations" | Voice roleplay before a difficult 1:1, feedback session, or performance review |
+| "Coach for everyone, not just managers" | Employees can practice receiving and responding to feedback — conversationally, not just in writing |
+| "Practice what matters" | Voice as the premium, high-perceived-value differentiator — the thing that makes Coach feel like a real coach, not a chatbot |
+
+**Sales framing:**
+
+When selling into accounts already using or evaluating Perform, voice becomes a concrete answer to "what makes Coach different?" — *"You can talk to it. Rehearse the conversation before you have it."* That's a demo moment, not a feature bullet.
 
 ---
 
@@ -73,71 +91,69 @@ These metrics help us understand if users find value beyond the "cool factor":
 
 ## Release Strategy
 
-We're using a **three-phase approach** to roll out Voice in General Coach, moving from internal testing through Limited Beta to full Beta release.
-
-**Key principles:**
-- **Universal feature** (not admin opt-in) - voice is an input modality, not an admin-enabled feature
-- **Sales enablement-first** - primary business case is competitive positioning; SDE enabled before customer rollout
-- **Phased rollout** - enables quantitative feedback vs. small tester pool of traditional EAP
-- **Beta positioning** - preserves pricing/packaging flexibility for future decisions
+We're proposing a three-phase approach to introducing Voice to General Coach, moving from internal testing (Customer Zero) through Limited Beta to full Beta release.
 
 ---
 
-### Phase 1: Build + Customer Zero (Feb 16 - Mar 30)
+### Phase 1: Build V1 + Customer Zero Release
 
-**Goal:** Build core voice functionality for General Coach and release to Customer Zero
+_Duration_: Feb 16 - Apr 17
 
-**Key Milestones:**
-- **Feb 16 - Mar 16:** Build core voice functionality (STT + TTS) with P0 features
-- **Feb 16 - Mar 16:** Complete legal requirements (DPIA, consent flow, privacy policy updates, Eleven Labs contract)
-- **Mar 16:** Release to Customer Zero (Culture Amp employees)
-- **Mar 16 - Mar 30:** Internal testing, bug identification, and fixes based on CZ feedback
-- **Mar 30:** Enable for Sales Demo Environment (SDE) - once legal certainty around contracts achieved
-- **Mar 30:** Sales Enablement sessions begin
+_Goal_: Build core voice functionality for General Coach and release to Customer Zero
 
-**Exit Criteria:**
-- Core functionality complete and validated through CZ testing
-- Bug fixes implemented based on CZ feedback
-- Instrumentation validated
-- Legal requirements completed
-- SDE enabled for sales teams
-- Ready for Limited Beta release
+_Milestones_:
 
----
+**Feb 16 - Mar 16:** Build core voice functionality (STT + TTS) with P0 features
+**Feb 16 - Mar 16:** Work through legal requirements (3P provider decision, DPIA + AICA, security risk assessment, consent flow)
+**Mar 23 - Mar 30:** Internal (Coach Camp) testing + refinement
+**Mar 30:** Ready for Customer Zero (Still in progress: 3P provider implementation, analytics + monitoring, security assessment response, consent)
+**Mar 30 - Apr 17:** Customer Zero release, CZ testing + bug fixing, complete: analytics implementation, security assessment response
 
-### Phase 2: Limited Beta (Early-Mid April)
+_Rationale_:
 
-**Goal:** Release Voice to C1+ customers ([x]% customers) for initial validation and feedback
+* Low-risk validation with internal users first
+* Technical stability confirmed before customer release
 
-**Key Milestones:**
-- **Early-Mid April:** Release to Limited Beta - C1+ customers (percentage-based rollout) + any customer who requests
-- **Early-Mid April onwards:** Product analytics monitoring begins
-- **Early-Mid April onwards:** Weekly usage/adoption metrics review
-- **Early-Mid April onwards:** Sales feedback collection
 
-**Exit Criteria:**
-- Limited Beta rollout complete to target C1+ customer segment
-- Initial adoption and usage data collected
-- No blocking issues preventing wider Beta release
-- Sales teams enabled and providing feedback
+### Phase 2: V1 (General Coach) Limited Beta rollout
 
----
+_Duration_: Mid April - early May
 
-### Phase 3: Beta (Late April - Ongoing)
+_Goal_: Release Voice to C1+ customers for initial validation and feedback
 
-**Goal:** Release Voice to all customers (100% rollout)
+_Milestones_:
 
-**Key Milestones:**
-- **Late April - Early May:** Release to Beta - All customers (100% rollout, labeled as "Beta")
-- **Late April - Early May:** Light-touch marketing activities
-- **Late April - Early May:** Update customer materials
-- **Late April - Early May onwards:** Continued bug fixes and improvements
-- **Late April - Early May onwards:** Ongoing metrics review and sales tracking
+**April 20:** Release to Limited Beta - C1+, any customer who requests
+**April 20 onwards:** Collect and analyze usage data
+**April 20 onwards:** Continued bug fixes and improvements
 
-**Exit Criteria:**
-- Voice available to 100% of customers
-- Marketing materials published
-- Ongoing monitoring and improvement processes established
+_Rationale_:
+
+* Phased rollout reduces risk before full launch
+* More quantitative feedback from broader user base than small tester pool
+* 'Universal feature' appropriate for new input modality; no admin opt-in friction
+* Preserves pricing/packaging flexibility
+
+
+### Phase 3: V1 (General Coach) Beta (roll out to all customers)
+
+_Duration_: Mid May ->
+
+_Goal_: Release Voice to all customers (100% rollout)
+
+_Milestones_:
+
+**Early May:** Enable SDEs
+**Early May:** Update customer materials
+**Mid May:** Release to Beta - All customers (100% rollout, labeled as "Beta")
+**Late May:** Sales Enablement to coincide with upgrade to Coach in Perform
+**Late May:** Light-touch marketing activities
+
+_Rationale_:
+
+* SDEs precede Beta release
+* 'End May' enablement push coincides with CiP activities (Coach in SR / PAUF etc.)
+* Beta positioning preserves flexibility
 
 ---
 
@@ -146,23 +162,24 @@ We're using a **three-phase approach** to roll out Voice in General Coach, movin
 | Date | Milestone |
 |------|-----------|
 | **Feb 16 - Mar 16** | Build + legal completion |
-| **Mar 16** | Customer Zero launch (internal) |
-| **Mar 16 - Mar 30** | CZ testing + bug fixes |
-| **Mar 30** | SDE enabled |
-| **Early-Mid April** | Limited Beta (C1+ customers) |
-| **Mid April** | Sales Enablement sessions |
-| **Late April** | Beta (all customers, 100% rollout) |
+| **Mar 23 - Mar 30** | Internal (Coach Camp) testing + refinement |
+| **Mar 30** | Customer Zero launch (internal) |
+| **Mar 30 - Apr 17** | CZ testing + bug fixing |
+| **April 20** | Limited Beta (C1+ customers) |
+| **Early May** | SDEs enabled + customer materials updated |
+| **Mid May** | Beta (all customers, 100% rollout) |
+| **Late May** | Sales Enablement push + light-touch marketing |
 
 ---
 
 ## Open Questions for Sales Enablement Discussion
 
-1. **Battle card timing:** When do we need battle cards ready? (Before SDE on Mar 30, or can they follow?)
+1. **Battle card timing:** When do we need battle cards ready? (Before SDEs in early May, or can they follow?)
 2. **Demo scripts:** Do we need canned demo scripts, or is SDE access + messaging enough?
 3. **Deal tracking:** What's the best way to instrument "voice mentioned in deal" tracking? Manual tagging? CRM field?
 4. **Competitive intel:** What are you hearing about Lattice's voice feature in the field?
 5. **Pricing questions:** How do we handle "is this extra cost?" questions? (Answer: No, included in Coach at launch; future pricing TBD)
-6. **SDE access:** What's the best way to showcase Voice in pitches using Sales Demo Environment (available Mar 30)
+6. **SDE access:** What's the best way to showcase Voice in pitches using Sales Demo Environment (available early May)
 7. **Quarterly targets:** Is it possible to set targets for voice mentions in deals to validate business case?
 8. **Objection handling:** How do we best prepare for common questions? (FAQ: privacy, cost, when to use voice vs. text)
 
@@ -199,7 +216,7 @@ These customers have expressed interest or are good candidates for early feedbac
 ## Next Steps
 
 - [ ] Review this GTM doc with Sales Enablement (week of Feb 24)
-- [ ] Finalize battle cards and demo scripts (by Mar 30)
-- [ ] Set up deal tracking instrumentation with Sales Ops (by Mar 30)
-- [ ] Schedule Sales Enablement sessions for SDE launch (Mar 30)
-- [ ] Establish feedback loop from AEs → PM for prospect reactions (ongoing from Apr 1)
+- [ ] Finalize battle cards and demo scripts (by early May)
+- [ ] Set up deal tracking instrumentation with Sales Ops (by early May)
+- [ ] Schedule Sales Enablement sessions for SDE launch (early May)
+- [ ] Establish feedback loop from AEs → PM for prospect reactions (ongoing from Apr 20)

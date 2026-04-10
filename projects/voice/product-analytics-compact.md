@@ -43,7 +43,7 @@ This document defines a pragmatic V1 product analytics strategy for Voice Coach,
 | Event Name | Description | Trigger | Priority |
 |-----------|-------------|---------|----------|
 | `dictation_started` | User starts dictation recording | User clicks mic button | P0 |
-| `dictation_cancelled` | User cancels dictation before sending | User clicks "X" during recording | P0 |
+| `dictation_stopped` | User stops dictation before sending | User clicks "stop" during recording | P0 |
 | `dictation_sent` | User completes and sends dictation | User clicks "Send" after recording | P0 |
 
 ### 1.4 Voice Playback Events

@@ -4,7 +4,7 @@ created_date: 2026-03-18
 status: draft
 confluence_page_id: 6040027505
 confluence_url: "https://cultureamp.atlassian.net/wiki/spaces/COACHCAMP/pages/6040027505/Coach+LangGraph+Migration+Orchestration+One-pager"
-last_synced: "2026-03-18T06:42:55.799Z"
+last_synced: "2026-03-25T02:13:41.748Z"
 ---
 
 # Description
@@ -28,7 +28,7 @@ Coaches are siloed by product area — users can't ask MSS, Insights, Perform, o
 **Business Impact:**
 - **Reduced maintenance burden**: Single framework means faster feature development and easier bug fixes
 - **Foundation for orchestration**: Unified architecture enables intelligent routing between Coach agents
-- **Unblocks future Coach capabilities**: Removes the technical debt ceiling that's slowing innovation
+- **Unblocks future Coach capabilities**: Removes technical debt that's slowing innovation
 
 **Customer Impact:**
 - **More natural conversations**: Users can ask questions across product boundaries without switching contexts
@@ -40,11 +40,12 @@ Coaches are siloed by product area — users can't ask MSS, Insights, Perform, o
 
 ### Primary
 - **Framework consolidation**: Agno removed; 100% of Coach implementations on LangGraph
-- **Cross-product query rate**: X% of Coach sessions include queries spanning multiple product areas (baseline: 0%)
+- **Routing accuracy**: Orchestrator routes to the correct agent at X% accuracy
+- **Home Page implementation**: Coach is accessible on the home page
+
 
 ### Secondary (Technical)
-- **Development velocity**: Time to ship new Coach features decreases by X% post-migration
-- **Routing accuracy**: Orchestrator routes to the correct agent at X% accuracy
+- **Cross-product query rate**: X% of Coach sessions include queries spanning multiple product areas (baseline: 0%)
 
 ---
 
@@ -81,13 +82,13 @@ A unified Coach implementation that:
 
 ---
 
-### Phase 2: LangGraph Orchestration
+### Phase 2: LangGraph Orchestration (Routing)
 
 **Goal:** Implement an Orchestrator that routes queries between Coach agents; ship Coach on home page
 
 **Parts:**
 - POC / Spike: connect multiple LangGraph graphs, validate routing logic
-- Productionise: evals, tuning, release
+- Productionise: evals, testing, release
 
 **Milestones:**
 - **Milestone: Coach on home page** — unified Coach entry point live for all users
@@ -101,10 +102,9 @@ A unified Coach implementation that:
 
 ## Open Questions
 
-1. **Session history:** Is session history temporarily removed at Phase 2 launch, pending the Unified Sessions initiative?
-2. **Routing logic:** What signals does the Orchestrator use — intent classification, context, explicit user selection?
-3. **Evals strategy:** What test scenarios are critical for validating graph routing accuracy?
-4. **Home page scope:** What is the minimum viable Coach home page experience for Phase 2 launch?
+1. **Routing logic:** What signals does the Orchestrator use — intent classification, context, explicit user selection?
+2. **Evals strategy:** What test scenarios are critical for validating graph routing accuracy?
+3. **Home page scope:** What is the minimum viable Coach home page experience for Phase 2 launch? How do we ensure we don’t block MSS launch?
 
 ---
 
@@ -113,6 +113,7 @@ A unified Coach implementation that:
 **Dependencies:**
 - LangGraph migration (Phase 1) must complete before Orchestrator POC can begin
 - Home page design decisions needed to unblock Phase 2 delivery
+- MSS (ie. 'Coach on home page') deliverables
 - Instrumentation strategy needed to track cross-product query metrics
 
 **Risks:**

@@ -2,14 +2,14 @@
 title: Coach | Voice | One-pager
 confluence_page_id: 5840339196
 confluence_url: "https://cultureamp.atlassian.net/wiki/spaces/COACHCAMP/pages/5840339196/Coach+Voice+One-pager"
-last_synced: "2026-03-16"
+last_synced: "2026-03-26T05:41:01.223Z"
 ---
 
 ## Description
 
 _This Thing in One Sentence_
 
-We are proposing to add a voice modality to Coach - a way for users to get the benefits of Coach's insights via a free-flowing conversation rather than a lengthy text exchange.
+We are adding a voice modality to Coach - a way for users to get the benefits of Coach's insights via a free-flowing conversation rather than a lengthy text exchange.
 
 ## The Problem
 
@@ -17,13 +17,11 @@ _What is the problem this project addresses? (Ideally in 1 sentence)_
 
 ### Business Case
 
-The business is losing deals to competitors who offer voice functionality. One instance of this is VML (WPP agency who Doug spoke to) who enquired about voice and said they were actively trialling Nadia and were getting good results when management coaching shifted to voice. There isn't a lot of additional evidence - one of our lead solutions engineers says only a small number of customers have enquired about voice capabilities in pitches. _But_ the lack of a voice modality in Coach has influenced or swayed enough large deals that we believe it will be a significant benefit to the business if sales teams can say we offer voice as part of their pitch.
+There is a concern that the business is losing or will lose deals to competitors who offer voice functionality. One instance of this is VML (WPP agency who Doug spoke to) who enquired about voice and said they were actively trialling Nadia and were getting good results when management coaching shifted to voice. In short the business context is that lack of a voice modality in Coach has influenced or swayed enough large deals that we believe it will be a significant benefit to the business if sales teams can say we offer voice as part of their pitch.
 
 ### User Case
 
-Users are tired of text-based interactions with AI and crave a coaching experience that is more accessible and human-like. The evidence for this proposition on the user side is less compelling: in a survey of CSMs representing more than 550 accounts, there were only 4 instances of a customer having requested or enquired about voice, coupled with 6 instances of Pendo feedback - over 2+ years. (See 'Customer Context' below.)
-
-In other words the research suggests weak appetite for voice in customers. It is true that 'customers not sharing with us that they want voice' does not mean they don't want voice. But there is little available signal about the value customers place on voice-based interactions with Coach, or indeed in general.
+Users are tired of text-based interactions with AI and crave a coaching experience that is more accessible and human-like. In a survey of CSMs representing more than 550 accounts, there were 4 instances of a customer having requested or enquired about voice, coupled with 6 instances of Pendo feedback - over 2+ years. (See 'Customer Context' below.) In other words the research suggests weak appetite for voice in customers. However, 'customers not sharing with us that they want voice' does not mean they don't want voice. It just signals that to date they have not actively requested it.
 
 **Pendo:** There are 6 mentions of 'voice' in Pendo - over several years (ie. several are not recent). 5 cite the speed of providing feedback in performance reviews as the basis of wanting/needing voice, but offer no more context.
 
@@ -55,10 +53,7 @@ In other words the research suggests weak appetite for voice in customers. It is
 **User Benefits:**
 
 Voice interactions offer tangible benefits for coaching:
-
 * Feel more intuitive, immediate, and human
-* Increase the speed of expression
-* Reduce friction to engagement
 * Make AI Coach 'more coaching-like'
 
 ---
@@ -76,10 +71,13 @@ _How do we know if we've solved this problem?_
 
 ### Adoption & Usage (Secondary - User Case)
 
-* Trial rate: X% of enabled users try voice at least once (target TBD after Phase 1)
-* Retention: X% of voice users use it 3+ times (indicates genuine value, not just curiosity)
-* Usage volume: 2% of all requests to the Coach back end use voice
-* Error rate: Voice session abandon/error rate < X% (target TBD after Phase 1)
+**Benchmarks and context:** The best public reference point for voice adoption is Google, which disclosed in 2016 that ~20% of mobile app queries were voice — the highest figure they ever released, and the last. ChatGPT launched Advanced Voice Mode in late 2024 and integrated it into the main chat UI in late 2025, signalling meaningful adoption, though OpenAI has never published a percentage of interactions figure. Both benchmarks come from high-propensity consumer contexts. For Coach, two penalties apply: (1) **desktop vs. mobile** — desktop accounts for ~24% of voice assistant usage vs. ~56% on mobile, a roughly 3–4x penalty; (2) **B2B vs. consumer** — professional environments (open-plan offices, meeting rooms) create strong social inhibitors to voice use that simply don't apply to consumer apps. Applying these factors, a realistic steady-state for a desktop B2B coaching tool is likely 1–3% of interactions.
+
+* **Trial rate:** 5–10% of enabled users try voice at least once
+* **Retention:** 20% of triallers (1-2% of enabled users) complete 3+ voice sessions (indicates genuine value, not just curiosity)
+* **Usage volume:** >1% of all Coach interactions use voice; >2% is the threshold to consider voice a genuinely adopted modality
+* **Session completion rate:** >70% of voice sessions reach a natural end (vs. abandon/error exit)
+* **Error/abandon rate:** <15% (STT failures, disconnections, frustrated exits)
 
 ---
 
@@ -92,127 +90,99 @@ In priority order:
 1. **Sales teams |** We are primarily building for Sales teams - to meet the metrics listed above
 2. **Customers |** We are also building for customers to offer a new, more intuitive and immediate, and human way of interacting with AI Coach that increases speed, reduces friction, and feels more like a regular coach
 
-‌
-
 ---
 
 ## What
 
 _Roughly, what does this look like in the product? Link to designs if available._
 
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=856046f14851&id=417d663b-c138-4648-9974-6a4710fff550&&collection=contentId-5840339196&height=755&occurrenceKey=null&width=1237&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
-[Figma](https://www.figma.com/design/izPCTP7pHBYKw65VpddgXU/%F0%9F%A4%96-AI-Coach--NEW--?node-id=13760-11732&p=f&t=en3XwwiaOLQ2A5Zz-0)
-
-‌
+[Figma](https://www.figma.com/design/7UcRC34Yh0cgLj7aBei4Ma/Coach-Voice?node-id=0-1&p=f&t=8z8AYGRmYXdbZvMt-0)
 
 ---
 
 ## How
 
-We're proposing a three-phase approach to introducing Voice to General Coach, moving from internal testing (Customer Zero) through Limited Beta to full Beta release. The Perform use case (V2) is not scheduled for Q2 pending discovery.
+We're proposing a three-phase approach to introducing Voice to General Coach, moving from internal testing (Customer Zero) through Limited Beta to full Beta release. The Perform use case (V2) is not currently scheduled for Q2 though Discovery has been promising.
 
-### Phase 1: Build V1 + Customer Zero Launch
+### Phase 1: Build V1 + Customer Zero Release
 
-_Duration_: Feb 16 - Mar 30
+_Duration_: Feb 16 - Apr 17
 
 _Goal_: Build core voice functionality for General Coach and release to Customer Zero
 
 _Milestones_:
 
-* **Feb 16 - Mar 16:** Build core voice functionality (STT + TTS) with P0 features
-* **Feb 16 - Mar 16:** Instrumentation setup for usage tracking
-* **Feb 16 - Mar 16:** Complete legal requirements (DPIA, consent flow, privacy policy updates, sub-processor list)
-* **Mar 16:** Release to Customer Zero (Culture Amp employees)
-* **Mar 16 - Mar 30:** Internal testing, bug identification, and fixes based on CZ feedback
-* **Mar 16 - Mar 30:** UX refinements and instrumentation validation
-* **Mar 30:** Enable for Sales Demo Environment (SDE) - once legal certainty around contracts achieved
-* **Mar 30:** Sales Enablement sessions begin
-
-_Exit Criteria_:
-
-* Core functionality complete and validated through CZ testing
-* Bug fixes implemented based on CZ feedback
-* Instrumentation validated
-* Legal requirements completed
-* SDE enabled for sales teams
-* Ready for Limited Beta release
+**Feb 16 - Mar 16:** Build core voice functionality (STT + TTS) with P0 features
+**Feb 16 - Mar 16:** Work through legal requirements (3P provider decision, DPIA + AICA, security risk assessment, consent flow)
+**Mar 23 - Mar 30:** Internal (Coach Camp) testing + refinement
+**Mar 30:** Ready for Customer Zero (Still in progress: 3P provider implementation, analytics + monitoring, security assessement response, consent)
+**Mar 30 - Apr 17:** Customer Zero release, CZ testing + bug fixing, complete: analytics implementation, security assessment response
 
 _Rationale_:
 
 * Low-risk validation with internal users first
 * Technical stability confirmed before customer release
-* Sales teams can demo and pitch Voice before wider customer release
-* Focused build phase without external release pressure
-‌
 
 
-### Phase 2: V1 (General Coach) Limited Beta (roll out to [x]% customers)
+### Phase 2: V1 (General Coach) Limited Beta rollout
 
-_Duration_: Early-Mid April
+_Duration_: Mid April - early May
 
 _Goal_: Release Voice to C1+ customers for initial validation and feedback
 
 _Milestones_:
 
-* **Early-Mid April:** Release to Limited Beta - C1+ customers (percentage-based rollout) + any customer who requests
-* **Early-Mid April onwards:** Product analytics monitoring begins
-* **Early-Mid April onwards:** Weekly usage/adoption metrics review
-* **Early-Mid April onwards:** Sales feedback collection
-
-_Exit Criteria_:
-
-* Limited Beta rollout complete to target C1+ customer segment
-* Initial adoption and usage data collected
-* No blocking issues preventing wider Beta release
-* Sales teams enabled
+**April 20:** Release to Limited Beta - C1+, any customer who requests
+**April 20 onwards:** Collect and analyze usage data
+**April 20 onwards:** Continued bug fixes and improvements
 
 _Rationale_:
 
 * Phased rollout reduces risk before full launch
 * More quantitative feedback from broader user base than small tester pool
 * ‘Universal feature’ appropriate for new input modality; no admin opt-in friction
-* Beta labeling signals it's not guaranteed as universal feature long-term (preserves pricing/packaging flexibility)
+* Preserves pricing/packaging flexibility
 
 
 ### Phase 3: V1 (General Coach) Beta (roll out to all customers)
 
-_Duration_: Late April - Ongoing
+_Duration_: Mid May ->
 
 _Goal_: Release Voice to all customers (100% rollout)
 
 _Milestones_:
 
-* **Late April - Early May:** Release to Beta - All customers (100% rollout, labeled as "Beta")
-* **Late April - Early May:** Light-touch marketing activities
-* **Late April - Early May:** Update customer materials
-* **Late April - Early May onwards:** Continued bug fixes and improvements
-* **Late April - Early May onwards:** Ongoing metrics review and sales tracking
-
-_Exit Criteria_:
-
-* Voice available to 100% of customers
-* Marketing materials published
-* Ongoing monitoring and improvement processes established
+**Early May:** Enable SDEs
+**Early May:** Update customer materials
+**Mid May:** Release to Beta - All customers (100% rollout, labeled as "Beta")
+**Late May:** Sales Enablement to coincide with upgrade to Coach in Perform
+**Late May:** Light-touch marketing activities
 
 _Rationale_:
 
-* Faster sales enablement and competitive positioning
-* Universal feature available to all customers
-* Can gather adoption data to inform future investment decisions
-
-_Decision Criteria for V2 (Perform) Scope:_
-
-* If adoption is strong (>2% of Coach interactions use voice, strong retention): Proceed with full V2 (Perform) rollout
-* If adoption is weak but sales love it: Complete V2 build but monitor closely, may deprioritize future voice investment
-* If both are weak: Pause V2, conduct deeper discovery
+* SDEs precede Beta release
+* 'End May' enablement push coincides with CiP activities (Coach in SR / PAUF etc.)
+* Beta positioning preserves flexibility
 
 ---
 
-## Sales Enablement, GTM, Beta Customers
+## Timeline at a Glance
 
-Given that the primary business case for Voice is competitive positioning and sales enablement, we need early coordination with Sales leadership.
+| Date | Milestone |
+|------|-----------|
+| **Feb 16 - Mar 16** | Build + legal completion |
+| **Mar 23 - Mar 30** | Internal (Coach Camp) testing + refinement |
+| **Mar 30** | Customer Zero launch (internal) |
+| **Mar 30 - Apr 17** | CZ testing + bug fixing |
+| **April 20** | Limited Beta (C1+ customers) |
+| **Early May** | SDEs enabled + customer materials updated |
+| **Mid May** | Beta (all customers, 100% rollout) |
+| **Late May** | Sales Enablement push + light-touch marketing |
 
-See full GTM document for details on:
+
+## Sales Enablement + GTM
+
+Given that the primary business case for Voice is competitive positioning and sales enablement, we are coordinating early Sales Enablement:
 - Sales enablement strategy and materials
 - Beta customer outreach list
 - Battle cards and competitive positioning
@@ -220,43 +190,23 @@ See full GTM document for details on:
 
 **GTM Document:** [Voice Coach - Go-to-Market Document](https://cultureamp.atlassian.net/wiki/spaces/COACHCAMP/pages/5951226056/Voice+Coach+-+Go-to-Market+Document)
 
+
 ---
 
 ## Testing
-
 
 **High-level approach:**
 
 Rich qualitative feedback from Customer Zero testing combined with quantitative data from gradual GA rollout to validate both business case (sales impact) and user case (adoption).
 
 **Customer Zero Testers:**
-Simran Jasdhoal - booked
-Anna Pelesikoti - booked
-Jacqui Pooley - booked
-Aditi Pimprikar - booked
-Katie Graves - booked
-
-
+Simran Jasdhoal
+Anna Pelesikoti
+Jacqui Pooley
+Aditi Pimprikar
+Katie Graves
 Mirna Nasr
 Caitlin Radcliffe
 Hayley Williams
 Chris Senior
 India Egan
-
-**Proposed metrics:**
-
-_Qualitative (Customer Zero):_
-
-* Bug identification and severity
-* UX feedback and usability issues
-* Feature discovery and comprehension
-* Use case identification
-
-_Quantitative (GA rollout):_
-
-* **% voice queries:** Voice requests as % of total Coach interactions (target: >2%)
-* **Session length:** Average duration of voice sessions vs. text sessions
-* **Session quality:** Completion rate, error rate, user satisfaction
-* **Retention:** % of users who complete 3+ voice sessions (indicates repeat value vs. curiosity)
-* **Voice vs. text ratio:** Distribution of interaction types at the user level
-* **Sales metrics:** # of deals with voice demo, close rate impact, qualitative feedback from AEs

@@ -4,7 +4,7 @@ created_date: 2026-03-18
 status: draft
 confluence_page_id: 6039667036
 confluence_url: "https://cultureamp.atlassian.net/wiki/spaces/COACHCAMP/pages/6039667036/Coach+Unified+Sessions+One-pager"
-last_synced: "2026-03-18T06:42:22.373Z"
+last_synced: "2026-03-25T02:30:23.556Z"
 ---
 
 # Description
@@ -14,7 +14,7 @@ A unified session layer that lets users access and resume Coach conversations an
 ## The Problem
 
 **User Problem:**
-- Session history is fragmented — opening General Coach doesn't show Engage Coach sessions
+- Session history is fragmented — eg. opening General Coach doesn't show Engage Coach sessions
 - Navigating in the main panel or the Coach panel (eg. loading a previous Coach session) leads to disconnects between main panel and Coach panel content
 
 ---
@@ -34,7 +34,7 @@ A unified session layer that lets users access and resume Coach conversations an
 
 ### Primary
 - **Cross-Coach session visibility**: 100% of Coach sessions (General, Engage, Perform) visible in a single history view
-- **Session history engagement**: X% increase in users returning to and resuming previous sessions
+- **Session history engagement**: X% of users resume previous sessions
 
 ### Secondary
 - **Session Coherence**: X% of users report that sessions persist in a coherent, understandable way
@@ -53,8 +53,7 @@ All users of Coach across General, Engage, and Perform use cases.
 A unified session layer that:
 1. Surfaces all Coach conversations — regardless of where they were started — in a single, accessible history view
 2. Allows users to resume any session from anywhere across the platform
-4. Preserves contextual integrity and prevents cross-topic contamination during navigation
-5. Optimises session handling to maintain performance at scale
+3. Preserves contextual integrity and prevents cross-topic contamination during navigation
 
 [Link to designs when available]
 
@@ -70,7 +69,7 @@ A unified session layer that:
 - **Milestone: Single session history view** — all Coach sessions visible from one place, regardless of where they originated
 
 **Exit Criteria:**
-- Users can see and navigate all their Coach sessions (General, Engage, Perform) from a unified history view
+- Users can see and navigate to all their Coach sessions (General, Engage, Perform) from a unified history view
 
 ---
 
@@ -100,18 +99,18 @@ A unified session layer that:
 - Monitor engagement with session history and return usage
 - Track session depth
 
-**Key Metrics:**
-- Session history engagement (return visits)
-- Cross-Coach session visibility
-- Session depth (topics per session)
-- User satisfaction (qualitative)
+**Key Questions:**
+- Is it clear how to revisit a previous session?
+- Are previous sessions displayed clearly?
+- How satisfied are you with the experience of shifting topics / pages (ie. in the main site) mid session?
+- How satisfied are you overall with the session management experience?
 
 ---
 
 ## Open Questions
 
 1. **Session resume behaviour:** When a user resumes a session, does Coach re-navigate the main panel automatically, or prompt the user first?
-2. **Cross-context contamination:** What are the guard rails — hard stops, warnings, or soft nudges?
+2. **Cross-context contamination:** How do we ensure the context updates consistently and transparently during navigation? What are the guard rails — hard stops, warnings, or soft nudges we want to introduce?
 3. **Performance at scale:** What is the upper bound on session history depth before performance degrades?
 4. **Dependency on LangGraph migration:** Does Phase 1 require the LangGraph migration to be complete, or can it proceed independently?
 
@@ -121,15 +120,8 @@ A unified session layer that:
 
 **Dependencies:**
 - Session management design decisions must be resolved before Phase 2 implementation
-- Main panel navigation instrumentation needed to support context restore
-- Instrumentation strategy needed for success metrics tracking
 
 **Risks:**
-- Session context restoration UX requires significant discovery to get right
-- Cross-context contamination edge cases may be harder to enumerate than anticipated
-- Performance implications of unified session storage at scale are unknown
-
-**Mitigation:**
-- Allocate dedicated discovery time for session management UX in Phase 1
-- Spike on context restoration mechanics early to surface complexity
-- Define performance budgets and test at scale before broad rollout
+- Session restoration UX requires significant discovery
+- Cross-context contamination edge cases may be hard to enumerate
+- Performance implications of unified sessions at scale are unknown
