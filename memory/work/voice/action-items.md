@@ -2,19 +2,20 @@
 
 Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] task (done YYYY-MM-DD)`
 
-## Week of Mar 30
+## Week of Apr 14
 
-**P0 — Critical blockers:**
+**Before Tuesday (Coach Leads):**
 
-- [ ] Discuss beta features toggle approach with Coach Leads — admin-controlled, Coach team owns short-term, default on (customer turns off) (added 2026-04-09)
+- [ ] Review voice latency findings ahead of Coach Leads Tue 2026-04-14 (added 2026-04-10)
+- [ ] Nudge Angela re: beta clause status (added 2026-04-10)
+- [ ] Prep beta features toggle proposal for Coach Leads — admin-controlled, Coach team owns short-term, default on (added 2026-04-09)
+- [ ] Share with Coach Leads: Louis' update that de-identified traces are now on for a subset of accounts (Slack: https://cultureamp.slack.com/archives/C0A2JMXP0KX/p1775535214333909) (added 2026-04-07)
+- [ ] Data/privacy one-pager — first draft: what data we collect, how we use it, EL zero retention mode, DPIA completion status (added 2026-03-09)
+
+**After Tuesday (gated on Leads decisions):**
+
 - [ ] CZ rollout — pending Coach Leads decision Tue 2026-04-14. Sub-tasks: finalise pilot group + rollout plan ([[../../projects/voice/cz-rollout-plan]]), send pilot comms (opt-in, EL data processing, no sensitive use; cc Megan), re-engage ~10 testers, reschedule sessions (added 2026-03-09)
 - [ ] Meet with Bindi to discuss navigation / session management options (added 2026-04-07)
-- [ ] Share with Coach leads: Louis' update that de-identified traces are now on for a subset of accounts (Slack: https://cultureamp.slack.com/archives/C0A2JMXP0KX/p1775535214333909) (added 2026-04-07)
-
-
-**P1 — High value:**
-
-- [ ] Data/privacy one-pager — first draft for Voice enablement materials: what data we collect, how we use it, EL zero retention mode, DPIA completion status (added 2026-03-09)
 
 ## Active (no fixed deadline)
 
