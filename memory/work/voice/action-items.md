@@ -7,7 +7,7 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 **Before Tuesday (Coach Leads):**
 
 - [ ] Review voice latency findings ahead of Coach Leads Tue 2026-04-14 (added 2026-04-10)
-- [ ] Nudge Angela re: beta clause status (added 2026-04-10)
+- [ ] Schedule 15 mins with Angela — beta clause status + guardrails/transparency concerns (added 2026-04-10)
 - [ ] Prep beta features toggle proposal for Coach Leads — admin-controlled, Coach team owns short-term, default on (added 2026-04-09)
 - [ ] Share with Coach Leads: Louis' update that de-identified traces are now on for a subset of accounts (Slack: https://cultureamp.slack.com/archives/C0A2JMXP0KX/p1775535214333909) (added 2026-04-07)
 - [ ] Data/privacy one-pager — first draft: what data we collect, how we use it, EL zero retention mode, DPIA completion status (added 2026-03-09)
