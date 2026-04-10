@@ -9,11 +9,12 @@
 - Late Apr-Early May: Beta to all customers
 
 **Active blockers / focus areas:**
-- Latency — flagged by execs (Paul, Mindy, Chris); options doc at `projects/voice/latency-options.md`; need instrumentation baseline + SLA target
-- ElevenLabs contract — signed but Flash model availability TBC
+- Latency — primary bottleneck is LLM (not voice pipeline); bar is 2–3s not 5s; optimisations in progress; options doc at `projects/voice/latency-options.md`
+- ElevenLabs contract — holding on signing until pipeline confidence established; dictation-first launch still on the table with EL pre-contract
 - Consent modal — wording agreed, not yet implemented
-- Voice labeling strategy — self-serve admin disable not resolved
+- Voice labeling strategy — self-serve admin disable not resolved; beta features toggle approach to be discussed with Coach Leads
 - CZ: will not release to CZ (Czech Republic) until RMC async sign-off
+- **Next milestone**: Present research findings at Coach Leads session Tue 2026-04-14
 
 **Key docs:**
 - [[../../projects/voice/coach-voice-one-pager.md]] — project overview
