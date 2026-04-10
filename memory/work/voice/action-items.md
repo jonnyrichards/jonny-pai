@@ -6,10 +6,11 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 **P0 — Critical blockers:**
 
+- [ ] Discuss beta features toggle approach with Coach Leads — admin-controlled, Coach team owns short-term, default on (customer turns off) (added 2026-04-09)
 - [ ] CZ rollout — pending Coach Leads decision Tue 2026-04-14. Sub-tasks: finalise pilot group + rollout plan ([[../../projects/voice/cz-rollout-plan]]), send pilot comms (opt-in, EL data processing, no sensitive use; cc Megan), re-engage ~10 testers, reschedule sessions (added 2026-03-09)
 - [ ] Meet with Bindi to discuss navigation / session management options (added 2026-04-07)
 - [ ] Share with Coach leads: Louis' update that de-identified traces are now on for a subset of accounts (Slack: https://cultureamp.slack.com/archives/C0A2JMXP0KX/p1775535214333909) (added 2026-04-07)
-- [ ] Discuss beta features toggle approach with Coach Leads — admin-controlled, Coach team owns short-term, default on (customer turns off) (added 2026-04-09)
+
 
 **P1 — High value:**
 
