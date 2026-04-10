@@ -4,6 +4,4 @@
 
 **Phase:** Q2 — early discovery
 
-## Action Items
-
-- [ ] Build on Amplitude Global Agent competitive notes for upcoming Collab presentation (added 2026-03-20) — see observations 2026-03-20
+**Key context:** Amplitude Global Agent is a strong competitive reference — decoupled nav, context adder, mode controls. See observations 2026-03-20.
