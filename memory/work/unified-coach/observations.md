@@ -2,6 +2,10 @@
 
 Timestamped log of events, decisions, learnings. Append-only.
 
+## 2026-04
+
+- 2026-04-13: Conversation with Jill Bourke on platform usage data — two useful Amplitude resources for understanding 'where next' with Coach: (1) Monthly active users by product (dashboard: https://app.amplitude.com/analytics/culture-amp-org/dashboard/pba8piop) — Goals, AF, Shoutouts, 1:1s are the big tickets; (2) Page-based usage view (within products, most viewed pages: https://app.amplitude.com/analytics/culture-amp-org/chat/session/016f2860-2d82-4075-b5a4-14de6b5889de/thread/3e729bdf-2e9f-4d12-b19a-a1b8e9053e29) — home page, goals, personal notes (?), AF all prominent. Jill's caveat: data is March only, so seasonality is baked in. [work, insight]
+
 ## 2026-03
 
 - 2026-03-16: Jill shared Amplitude notebook with Chat history usage data. URL: https://app.amplitude.com/analytics/culture-amp-org/notebook/ebswnpjv?source=copy+url [work]
