@@ -2,6 +2,8 @@
 
 Timestamped log of events, decisions, learnings. Append-only. Latest first.
 
+- 2026-04-13: Shared Beta features vision with Coach leads — few people absent but no objections. Jay and Jakub stressed technical ease of implementation; overall advice: don't overcomplicate it. Enoch flagged UXR findings from last year around the term "Beta" — worth reviewing before finalising copy/labelling approach. [work]
+
 - 2026-04-10: Mindy + Greta sync — EL contract decision. Preferred position: EL remains the preferred vendor, but confidence in the full voice pipeline is not yet sufficient to sign. Decision: hold on signing until pipeline confidence is established (latency optimisation work currently in progress and close). This doesn't close off a dictation-first launch — launching dictation with EL before conversation mode is still on the table. Key callouts: (1) the main latency bottleneck is the LLM, not the voice-specific parts of the pipeline; (2) their bar for "great" latency is 2–3 seconds, not 5. Next step: present research findings at Coach Leads session Tuesday 2026-04-14. [work]
 
 - 2026-04-09: ElevenLabs pricing analysis at $4,300/month (Tier A). 100% TTS: ~63.2M chars (~12.6M words / ~19,500 sessions). 100% STT: ~25,300 hrs transcription. Realistic 80/20 TTS-heavy mix: ~50.5M chars TTS (~10.1M words / ~15,600 sessions) + ~5,060 hrs STT. 50/50 mix: ~31.6M chars TTS (~6.3M words) + ~12,650 hrs STT. STT is dramatically cheaper — transcription costs are near-negligible vs TTS at this contract size. Session count based on avg 646 words/session (General Coach). For context: General Coach is currently averaging ~8,000 sessions/week — voice % unknown pre-launch, but this gives a sense of the volume at play. [work]
