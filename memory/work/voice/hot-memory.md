@@ -9,12 +9,11 @@
 - Late Apr-Early May: Beta to all customers
 
 **Active blockers / focus areas:**
-- Latency — primary bottleneck is LLM (not voice pipeline); bar is 2–3s not 5s; optimisations in progress; options doc at `projects/voice/latency-options.md`
-- ElevenLabs contract — holding on signing until pipeline confidence established; dictation-first launch still on the table with EL pre-contract
-- Consent modal — wording agreed, not yet implemented
-- Voice labeling strategy — self-serve admin disable not resolved; beta features toggle approach to be discussed with Coach Leads
-- CZ: will not release to CZ (Czech Republic) until RMC async sign-off
-- **Next milestone**: Present research findings at Coach Leads session Tue 2026-04-14
+- Latency — primary bottleneck is LLM (not voice pipeline); bar is 2–3s not 5s; Mindy wants to experience prod with all optimisations in place before forming a view; options doc at `projects/voice/latency-options.md`
+- ElevenLabs contract — holding on signing until pipeline confidence established; dictation-first with EL pre-contract still on table
+- CZ rollout — pending Coach Leads go-ahead; RMC async sign-off still required
+- Beta features toggle — Ben Kloester aligned on opt-out in regular Settings; needs eng owner (Jay/Jas)
+- Session Management — PGLT collab session targeting Tue 2026-04-21; attendees: Ally, Jay, Coach leads + PGLT
 
 **Key docs:**
 - [[../../projects/voice/coach-voice-one-pager.md]] — project overview
