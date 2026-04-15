@@ -6,11 +6,7 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 **Before Tuesday (Coach Leads):**
 
-- [ ] Review voice latency findings ahead of Coach Leads Tue 2026-04-14 (added 2026-04-10)
-- [ ] Schedule 15 mins with Angela — beta clause status + guardrails/transparency concerns (added 2026-04-10)
-- [ ] Prep beta features toggle proposal for Coach Leads — admin-controlled, Coach team owns short-term, default on (added 2026-04-09)
 - [ ] Share with Coach Leads: Louis' update that de-identified traces are now on for a subset of accounts (Slack: https://cultureamp.slack.com/archives/C0A2JMXP0KX/p1775535214333909) (added 2026-04-07)
-- [ ] Data/privacy one-pager — first draft: what data we collect, how we use it, EL zero retention mode, DPIA completion status (added 2026-03-09)
 
 **After Tuesday (gated on Leads decisions):**
 
@@ -18,6 +14,8 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 - [ ] Meet with Bindi to discuss navigation / session management options (added 2026-04-07)
 
 ## Active (no fixed deadline)
+
+- [ ] Share notes from Ben Kloester Beta features meeting with Jay (added 2026-04-15)
 
 - [ ] Disclaimer messaging — schedule implementation with Jay as Coach Core BAU; eng ready to proceed (added 2026-03-11)
 - [ ] Message context — schedule with Jay for Q2; Bec's designs ready, just needs roadmap slot (added 2026-03-11)
@@ -33,3 +31,7 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 - [x] Create more time for TTS optimisations in sprint planning (done ~2026-04-01)
 - [x] Desk research for Mindy — pull Kristina's literature notes on voice preferences by geography (done 2026-04-08)
 - [x] Once EL deal locked in — revisit Voice thread (Mindy), sketch options: which voice, how many, gender (done ~2026-04-09)
+- [ ] Schedule 15 mins with Angela — beta clause status + guardrails/transparency concerns (added 2026-04-10)
+- [ ] Prep beta features toggle proposal for Coach Leads — admin-controlled, Coach team owns short-term, default on (added 2026-04-09)
+- [ ] Data/privacy one-pager — first draft: what data we collect, how we use it, EL zero retention mode, DPIA completion status (added 2026-03-09)
+
