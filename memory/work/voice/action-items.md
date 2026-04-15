@@ -31,7 +31,7 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 - [x] Create more time for TTS optimisations in sprint planning (done ~2026-04-01)
 - [x] Desk research for Mindy — pull Kristina's literature notes on voice preferences by geography (done 2026-04-08)
 - [x] Once EL deal locked in — revisit Voice thread (Mindy), sketch options: which voice, how many, gender (done ~2026-04-09)
-- [ ] Schedule 15 mins with Angela — beta clause status + guardrails/transparency concerns (added 2026-04-10)
-- [ ] Prep beta features toggle proposal for Coach Leads — admin-controlled, Coach team owns short-term, default on (added 2026-04-09)
-- [ ] Data/privacy one-pager — first draft: what data we collect, how we use it, EL zero retention mode, DPIA completion status (added 2026-03-09)
+- [x] Schedule 15 mins with Angela — beta clause status + guardrails/transparency concerns (done 2026-04-16)
+- [x] Prep beta features toggle proposal for Coach Leads — admin-controlled, Coach team owns short-term, default on (done 2026-04-16)
+- [x] Data/privacy one-pager — first draft: what data we collect, how we use it, EL zero retention mode, DPIA completion status (done 2026-04-16)
 
