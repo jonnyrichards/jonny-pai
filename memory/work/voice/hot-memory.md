@@ -4,9 +4,9 @@
 
 **Timeline:**
 - Mar 25: Internal release to Coach team — DONE
-- Early Apr: Customer Zero (C0) — rebook testers, EL contract signed
-- Mid Apr: Limited Beta (C1+)
-- Late Apr-Early May: Beta to all customers
+- Early Apr: Customer Zero (C0) — slipped; EL contract not yet signed, latency confidence pending
+- Mid–Late Apr: CZ + Limited Beta — gated on latency resolution + EL sign-off
+- Late Apr–Early May: Beta to all customers (aspirational)
 
 **Active blockers / focus areas:**
 - Latency — primary bottleneck is LLM (not voice pipeline); bar is 2–3s not 5s; Mindy wants to experience prod with all optimisations in place before forming a view; options doc at `projects/voice/latency-options.md`
