@@ -23,15 +23,5 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 ## Completed
 
-- [x] Voice deployed in Prod and CZ-ready
-- [x] Develop plan for latency issues flagged in Product Review
-- [x] Plan agreed to progress Eleven Labs deal with Zero Data Retention specified
-- [x] Ask Jill to pull Coach user base by geography (done ~2026-04-08)
-- [x] Engineering sprint planning for Phase 1 items with Jay (incl. consent modal) (done ~2026-04-01)
-- [x] Create more time for TTS optimisations in sprint planning (done ~2026-04-01)
-- [x] Desk research for Mindy — pull Kristina's literature notes on voice preferences by geography (done 2026-04-08)
-- [x] Once EL deal locked in — revisit Voice thread (Mindy), sketch options: which voice, how many, gender (done ~2026-04-09)
-- [x] Schedule 15 mins with Angela — beta clause status + guardrails/transparency concerns (done 2026-04-16)
-- [x] Prep beta features toggle proposal for Coach Leads — admin-controlled, Coach team owns short-term, default on (done 2026-04-16)
-- [x] Data/privacy one-pager — first draft: what data we collect, how we use it, EL zero retention mode, DPIA completion status (done 2026-04-16)
+<!-- Archived to glacier/work/voice/action-items-done.md (2026-04-16) -->
 
