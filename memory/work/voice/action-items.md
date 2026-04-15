@@ -19,7 +19,6 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 - [ ] Disclaimer messaging — schedule implementation with Jay as Coach Core BAU; eng ready to proceed (added 2026-03-11)
 - [ ] Message context — schedule with Jay for Q2; Bec's designs ready, just needs roadmap slot (added 2026-03-11)
-- [ ] Coach Inspector — explore Rash and Mikey's app on Saturn: https://ds-evaluate.cultureamp-us.saturnenterprise.io/Coach_Inspector (added 2026-02-27)
 
 ## Completed
 
