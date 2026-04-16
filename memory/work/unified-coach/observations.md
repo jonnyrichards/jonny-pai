@@ -4,6 +4,8 @@ Timestamped log of events, decisions, learnings. Append-only.
 
 ## 2026-04
 
+- 2026-04-16: Jakub (principal eng) on Unified Sessions. Fully flex approach worries him — too much hallucination risk. But acknowledges the user need to move between pages/conversations. On Option 2 (page-coupled sessions): could surface 'conversation is out of sync with the data, do you want to refresh?' — user can keep talking but unsynced is OK as a state. Two design ideas: (1) Tabs — let user return to previous conversation; (2) Topic-coupled sessions rather than page-coupled — e.g. a survey report spans many pages but it's all one survey, which could be a single 'topic' for Coach. [work, architecture, insight]
+
 - 2026-04-16: Key AI due diligence URLs — (1) Confluence landing page for all AI/due diligence questions (FAQs, platform features, region FAQs): https://cultureamp.atlassian.net/wiki/spaces/LEGAL/pages/6060670996/Customer+Handouts+for+AI+Due+Diligence+Questions (2) Public-facing AI positioning statement (high-priority exec doc): https://docs.google.com/document/d/1DyaiN2nPYbd0O4k8r7vtiIjrVn4HxJo7RSL7vrx3slQ/edit?tab=t.e2u3iyqnkhby [work, reference]
 
 - 2026-04-15: Enoch flagged in Slack: welcome message and suggested prompts in Coach Side Panel (Engage + Perform) are top-aligned in conversation flow — should be middle-aligned per designs. Likely a regression. [work, bug]
