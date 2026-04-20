@@ -2,6 +2,8 @@
 
 Timestamped log of events, decisions, learnings. Append-only. Latest first.
 
+- 2026-04-20: No Amplitude events tracking snippets — flagged to chat through with Jay. [work, analytics]
+
 - 2026-04-16: Jakub (principal eng) on Voice architecture. Current hops: browser→EL→browser→Claude (potentially repeats)→browser→EL→browser. Speech-to-speech option (EL handles all STT/LLM/TTS hops) reduces latency but hands full control to EL — departs from current architecture, creates divergence we'd have to maintain. Alternative path: connect our backend directly to EL, removing the browser from some hops. Create an OpenAI-compatible interface (industry standard, already used on consuming side) — EL could connect to it. Benefit: removes geo-latencies (browser-dependent). Downside: harder to debug. Next step Jakub flagged: Miro board mapping the waterfall — identify which hops can be removed. Overarching Q: is all this worth it? Shipping dictation may answer that. [work, architecture]
 
 - 2026-04-16: DB 1:1. Voice reflections: (1) Ownership — Coach hasn't owned the plan, it's been AirX-driven ('Dan will break the back of it'); felt like execution not driving. Need more ownership of the plan — here's where we're going, here's how we get there. (2) Experimentation — DB worried we'll start moving too slow now that we have 'decent usage' and things need to be better for GA. Beta features is one solve but we need Beta customers too. (3) Stakeholder management — need to flag stuff ahead of time, more proactive communication. Su handover: DB will need help with analysis / data intelligence post-handover. [work, milestone]
