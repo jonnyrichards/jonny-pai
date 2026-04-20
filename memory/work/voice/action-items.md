@@ -16,6 +16,9 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 ## Active (no fixed deadline)
 
 - [ ] Share notes from Ben Kloester Beta features meeting with Jay (added 2026-04-15)
+- [ ] Discuss with Jay: Voice labelled as Beta — implications/timing (added 2026-04-20)
+- [ ] Discuss with Jay: Beta features strategy in general (added 2026-04-20)
+- [ ] Discuss with Jay: Cut and paste in Perform — Coles issue (added 2026-04-20)
 
 - [ ] Disclaimer messaging — schedule implementation with Jay as Coach Core BAU; eng ready to proceed (added 2026-03-11)
 - [ ] Message context — schedule with Jay for Q2; Bec's designs ready, just needs roadmap slot (added 2026-03-11)
