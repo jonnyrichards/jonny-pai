@@ -9,6 +9,7 @@ Tasks for the Unified Coach project. Format: `- [ ] task (added YYYY-MM-DD)` / `
 - [ ] Chat with Jay: no Amplitude events tracking snippets (added 2026-04-20)
 - [ ] Speak to Dan about Customer Knowledge Base — understand what they're recommending and how it equates to / differs from what's in our Q2 plan (due to start late May) (added 2026-04-21)
 - [ ] Brief Rachael on designing Beta features toggle in platform settings (added 2026-04-21)
+- [ ] Book product review for second week of May (Tues or Fri) via #product-reviews channel; create pre-read video for attendees (added 2026-04-21)
 
 ## Completed
 
