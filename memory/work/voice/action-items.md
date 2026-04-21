@@ -20,6 +20,7 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 - [ ] Discuss with Jay: Beta features strategy in general (added 2026-04-20)
 - [ ] Discuss with Jay: Cut and paste in Perform — Coles issue (added 2026-04-20)
 
+- [ ] Discuss 'getting ahead' pre Haiku test results: two actions to move on now — analytics and dictation/conversation flag separation (added 2026-04-22)
 - [ ] Disclaimer messaging — schedule implementation with Jay as Coach Core BAU; eng ready to proceed (added 2026-03-11)
 - [ ] Message context — schedule with Jay for Q2; Bec's designs ready, just needs roadmap slot (added 2026-03-11)
 
