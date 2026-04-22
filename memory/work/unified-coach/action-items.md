@@ -11,6 +11,7 @@ Tasks for the Unified Coach project. Format: `- [ ] task (added YYYY-MM-DD)` / `
 - [ ] Brief Rachael on designing Beta features toggle in platform settings (added 2026-04-21)
 - [ ] Book product review for second week of May (Tues or Fri) via #product-reviews channel; create pre-read video for attendees (added 2026-04-21)
 - [ ] Pick up Accessibility audit — Jo / Enoch to advise on who and when (added 2026-04-22)
+- [ ] Share disclaimer messaging status (discussed with Tabitha) in core stand up (added 2026-04-22)
 
 ## Completed
 
