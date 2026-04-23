@@ -2,27 +2,19 @@
 
 Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] task (done YYYY-MM-DD)`
 
-## Week of Apr 14
+## Week of Apr 23
 
-**Before Tuesday (Coach Leads):**
+- [ ] Share DB next-steps plan with Jay: separate Dictation/Conversation flags, deploy to CZ subset, vibe check latency (added 2026-04-23)
+- [ ] Share DB/WPP CKB context with Kristina and tee up prompt help (added 2026-04-23)
+- [ ] Get download from Lisa on how Insights prompt 174 went for CZ (added 2026-04-23)
 
-- [ ] Share with Coach Leads: Louis' update that de-identified traces are now on for a subset of accounts (Slack: https://cultureamp.slack.com/archives/C0A2JMXP0KX/p1775535214333909) (added 2026-04-07)
-
-**After Tuesday (gated on Leads decisions):**
+## Week of Apr 20
 
 - [ ] CZ rollout — pending Coach Leads decision Tue 2026-04-14. Sub-tasks: finalise pilot group + rollout plan ([[../../projects/voice/cz-rollout-plan]]), send pilot comms (opt-in, EL data processing, no sensitive use; cc Megan), re-engage ~10 testers, reschedule sessions (added 2026-03-09)
-- [ ] Meet with Bindi to discuss navigation / session management options (added 2026-04-07)
 
 ## Active (no fixed deadline)
 
-- [ ] Share notes from Ben Kloester Beta features meeting with Jay (added 2026-04-15)
-- [ ] Discuss with Jay: Voice labelled as Beta — implications/timing (added 2026-04-20)
-- [ ] Discuss with Jay: Beta features strategy in general (added 2026-04-20)
 - [ ] Discuss with Jay: Cut and paste in Perform — Coles issue (added 2026-04-20)
-
-- [ ] Discuss 'getting ahead' pre Haiku test results: two actions to move on now — analytics and dictation/conversation flag separation (added 2026-04-22)
-- [ ] Disclaimer messaging — schedule implementation with Jay as Coach Core BAU; eng ready to proceed (added 2026-03-11)
-- [ ] Message context — schedule with Jay for Q2; Bec's designs ready, just needs roadmap slot (added 2026-03-11)
 
 ## Completed
 
