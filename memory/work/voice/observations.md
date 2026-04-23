@@ -2,6 +2,8 @@
 
 Timestamped log of events, decisions, learnings. Append-only. Latest first.
 
+- 2026-04-23: DB meeting next steps for Voice (share with Jay): (1) Create feature flags, separate Dictation and Conversation modes. (2) Deploy both to subset of CZ (Coach Leads + Mindy/Paul etc.) for vibe check on latency/performance — EL contract signing to follow shortly. (3) WPP opportunity: scope an early slice of CKB for them (potentially June) — share their docs somehow via Coach; DB chatting to Hiral. (4) Get download from Lisa on how Insights prompt 174 went for CZ. (5) Jonny to share context with Kristina and tee up prompt help. [work, milestone, voice]
+
 - 2026-04-20: No Amplitude events tracking snippets — flagged to chat through with Jay. [work, analytics]
 
 - 2026-04-16: Jakub (principal eng) on Voice architecture. Current hops: browser→EL→browser→Claude (potentially repeats)→browser→EL→browser. Speech-to-speech option (EL handles all STT/LLM/TTS hops) reduces latency but hands full control to EL — departs from current architecture, creates divergence we'd have to maintain. Alternative path: connect our backend directly to EL, removing the browser from some hops. Create an OpenAI-compatible interface (industry standard, already used on consuming side) — EL could connect to it. Benefit: removes geo-latencies (browser-dependent). Downside: harder to debug. Next step Jakub flagged: Miro board mapping the waterfall — identify which hops can be removed. Overarching Q: is all this worth it? Shipping dictation may answer that. [work, architecture]
