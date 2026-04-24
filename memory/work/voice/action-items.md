@@ -4,7 +4,7 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 ## Week of Apr 23
 
-- [ ] Share DB next-steps plan with Jay: separate Dictation/Conversation flags, deploy to CZ subset, vibe check latency (added 2026-04-23)
+- [x] Share DB next-steps plan with Jay: separate Dictation/Conversation flags, deploy to CZ subset, vibe check latency (done 2026-04-24)
 - [ ] Share DB/WPP CKB context with Kristina and tee up prompt help (added 2026-04-23)
 - [ ] Get download from Lisa on how Insights prompt 174 went for CZ (added 2026-04-23); perhaps we can temper WPP expectations with:  caveats: time based availability, 'this is early stage', can't accommmodate loads of content
 - [ ] Check in with DB how chat with Hiral went (check in Mon 4/27)
