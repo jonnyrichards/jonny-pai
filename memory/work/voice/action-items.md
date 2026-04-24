@@ -2,6 +2,10 @@
 
 Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] task (done YYYY-MM-DD)`
 
+## Week of Apr 28
+
+- [ ] Share Beta Features proposal (latest doc) with Mindy + Paul; include exec summary (added 2026-04-24)
+
 ## Week of Apr 23
 
 - [x] Share DB next-steps plan with Jay: separate Dictation/Conversation flags, deploy to CZ subset, vibe check latency (done 2026-04-24)
