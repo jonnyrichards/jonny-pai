@@ -16,7 +16,7 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 ## Active (no fixed deadline)
 
-- [ ] Discuss with Jay: Cut and paste in Perform — Coles issue (added 2026-04-20)
+- [x] Discuss with Jay: Cut and paste in Perform — Coles issue (done 2026-04-24)
 
 ## Completed
 
