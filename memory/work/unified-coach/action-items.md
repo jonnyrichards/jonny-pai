@@ -6,7 +6,7 @@ Tasks for the Unified Coach project. Format: `- [ ] task (added YYYY-MM-DD)` / `
 
 - [ ] Discuss vertical alignment regression with Eng — suggested prompts/welcome message in Side Panel (Engage + Perform) are top-aligned, should be middle-aligned per Figma designs (added 2026-04-15)
 - [x] Brief Rachael on designing Beta features toggle in platform settings — asked Enoch instead (done 2026-04-24)
-- [ ] Create pre-read video for Product Review attendees (added 2026-04-21)
+- [x] Create pre-read video for Product Review attendees (done 2026-04-24)
 
 ## Completed
 
