@@ -4,6 +4,7 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 ## Week of Apr 28
 
+- [ ] Ask Baps about transcription settings in EL — background noise / silence detection (added 2026-04-29)
 - [ ] Share Beta Features proposal (latest doc) with Mindy + Paul; include exec summary (added 2026-04-24)
 - [ ] Revisit Tyrone's suggestion: add admin rights via Self Service+ to fix inability to update apps on macOS (added 2026-04-24)
 
