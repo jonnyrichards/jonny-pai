@@ -4,16 +4,14 @@
 
 **Timeline:**
 - Mar 25: Internal release to Coach team — DONE
-- Early Apr: Customer Zero (C0) — slipped; EL contract not yet signed, latency confidence pending
-- Mid–Late Apr: CZ + Limited Beta — gated on latency resolution + EL sign-off
-- Late Apr–Early May: Beta to all customers (aspirational)
+- Early May: Customer Zero (C0) — ON HOLD; latency confidence pending; GTM plan update needed
+- Mid-May: CZ + Limited Beta — aspirational
 
 **Active blockers / focus areas:**
 - Latency — primary bottleneck is LLM (not voice pipeline); bar is 2–3s not 5s; Mindy wants to experience prod with all optimisations in place before forming a view; options doc at `projects/voice/latency-options.md`
-- ElevenLabs contract — holding on signing until pipeline confidence established; dictation-first with EL pre-contract still on table
-- CZ rollout — pending Coach Leads go-ahead; RMC async sign-off still required
+- ElevenLabs contract — **SIGNED** (2026-05-01); Okta SSO now in motion (Div Patel's team, ~2 weeks)
+- CZ rollout — ON HOLD; sub-tasks in action-items.md
 - Beta features toggle — Ben Kloester aligned on opt-out in regular Settings; needs eng owner (Jay/Jas)
-- Session Management — PGLT collab session targeting Tue 2026-04-21; attendees: Ally, Jay, Coach leads + PGLT
 
 **Key docs:**
 - [[../../projects/voice/coach-voice-one-pager.md]] — project overview
