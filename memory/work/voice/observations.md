@@ -2,6 +2,8 @@
 
 Timestamped log of events, decisions, learnings. Append-only. Latest first.
 
+- 2026-05-01 [work, voice, okta, eleven-labs, infosec]: Okta SSO process for Voice (ElevenLabs) now in motion following EL contract signing. Div Patel's team handling the request. 2-week timeframe requested. Ticket: https://cultureamp.at.okta.com/next/requests/6505. cc'd Jay, Dan Fraser, Jo. [work, voice, okta, eleven-labs, infosec]
+
 - 2026-04-24: AWS guardrails being removed from the real-time voice flow to reduce latency — moving to async. Not removed entirely: guardrails still run, but lose the ability to block Coach responding in real time. Data still stored, can still be analysed and audited. Rationale: (1) Culture Amp's own guardrails do most of the heavy lifting anyway; (2) AWS guardrails are unreliable. [work, voice, security]
 
 - 2026-04-23: DB meeting next steps for Voice (share with Jay): (1) Create feature flags, separate Dictation and Conversation modes. (2) Deploy both to subset of CZ (Coach Leads + Mindy/Paul etc.) for vibe check on latency/performance — EL contract signing to follow shortly. (3) WPP opportunity: scope an early slice of CKB for them (potentially June) — share their docs somehow via Coach; DB chatting to Hiral. (4) Get download from Lisa on how Insights prompt 174 went for CZ. (5) Jonny to share context with Kristina and tee up prompt help. [work, milestone, voice]
