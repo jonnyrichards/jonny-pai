@@ -2,6 +2,8 @@
 
 Timestamped log of events, decisions, learnings. Append-only. Latest first.
 
+- 2026-05-04 [work, voice, uxr]: Darshana session on Voice testing approach. Plan: week-long test within a 2-week CZ window; Darsh to advise, R+A+J to run; Darsh will review script to check it fits in 30 mins. Mid-week voice ID swap to test preference anecdotally. Next: schedule the testing and build into roadmap. [work, voice, uxr, testing, darshana]
+
 - 2026-05-04 [work, voice, eleven-labs]: Dan + Jay sync on ElevenLabs post-contract. Key decisions and open items: (1) **Dictation everywhere, Conversation gated** — deploy both buttons platform-wide but FF for Conversation mode stays off; (2) **EL relationship** — need to build account relationship with EL AE (Kenny); (3) **Technical alignment** — need a walk-through call with EL on v2 vs. v3 API (which should we use?); (4) **Billing/invoicing** — how do we raise a ticket and who approves invoices on our side (Jo potentially, via her SaaS channel involvement); (5) **Observability** — open question whether Coach takes on EL observability. [work, voice, eleven-labs, architecture, billing]
 
 - 2026-05-01 [work, voice, okta, eleven-labs, infosec]: Okta SSO process for Voice (ElevenLabs) now in motion following EL contract signing. Div Patel's team handling the request. 2-week timeframe requested. Ticket: https://cultureamp.at.okta.com/next/requests/6505. cc'd Jay, Dan Fraser, Jo. [work, voice, okta, eleven-labs, infosec]
