@@ -4,6 +4,11 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 ## Active (no fixed deadline)
 
+- [ ] Reach out to Kenny (EL Account Exec) — build the relationship (added 2026-05-04)
+- [ ] Book technical walk-through call with EL — v2 vs. v3 API, which should we use? (added 2026-05-04)
+- [ ] Resolve billing/invoicing flow — how do we raise a ticket with EL, and who approves on our side? (Jo via SaaS channel?) (added 2026-05-04)
+- [ ] Resolve observability question — does Coach take on EL observability? (added 2026-05-04)
+- [ ] Deploy dictation platform-wide — both buttons visible, Conversation FF stays off (added 2026-05-04)
 - [ ] Update go to market plan for Voice (added 2026-05-01)
 - [ ] Commence Customer Knowledge Base Discovery: Share DB/WPP CKB context with Kristina and tee up prompt help; check in with DB on how chat with Hiral went (added 2026-04-29)
 - [ ] CZ rollout — ON HOLD. Sub-tasks: finalise pilot group + rollout plan ([[../../projects/voice/cz-rollout-plan]]), send pilot comms (opt-in, EL data processing, no sensitive use; cc Megan), re-engage ~10 testers, reschedule sessions (added 2026-03-09)
