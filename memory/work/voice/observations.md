@@ -2,6 +2,8 @@
 
 Timestamped log of events, decisions, learnings. Append-only. Latest first.
 
+- 2026-05-04 [work, voice, eleven-labs]: Dan + Jay sync on ElevenLabs post-contract. Key decisions and open items: (1) **Dictation everywhere, Conversation gated** — deploy both buttons platform-wide but FF for Conversation mode stays off; (2) **EL relationship** — need to build account relationship with EL AE (Kenny); (3) **Technical alignment** — need a walk-through call with EL on v2 vs. v3 API (which should we use?); (4) **Billing/invoicing** — how do we raise a ticket and who approves invoices on our side (Jo potentially, via her SaaS channel involvement); (5) **Observability** — open question whether Coach takes on EL observability. [work, voice, eleven-labs, architecture, billing]
+
 - 2026-05-01 [work, voice, okta, eleven-labs, infosec]: Okta SSO process for Voice (ElevenLabs) now in motion following EL contract signing. Div Patel's team handling the request. 2-week timeframe requested. Ticket: https://cultureamp.at.okta.com/next/requests/6505. cc'd Jay, Dan Fraser, Jo. [work, voice, okta, eleven-labs, infosec]
 
 - 2026-04-24: AWS guardrails being removed from the real-time voice flow to reduce latency — moving to async. Not removed entirely: guardrails still run, but lose the ability to block Coach responding in real time. Data still stored, can still be analysed and audited. Rationale: (1) Culture Amp's own guardrails do most of the heavy lifting anyway; (2) AWS guardrails are unreliable. [work, voice, security]
