@@ -4,6 +4,7 @@ Tasks for the Voice project. Format: `- [ ] task (added YYYY-MM-DD)` / `- [x] ta
 
 ## Active (no fixed deadline)
 
+- [ ] Schedule CZ voice testing + build into roadmap (week-long test, 2-week CZ window, mid-week voice ID swap) (added 2026-05-04)
 - [ ] Reach out to Kenny (EL Account Exec) — build the relationship (added 2026-05-04)
 - [ ] Book technical walk-through call with EL — v2 vs. v3 API, which should we use? (added 2026-05-04)
 - [ ] Resolve billing/invoicing flow — how do we raise a ticket with EL, and who approves on our side? (Jo via SaaS channel?) (added 2026-05-04)
